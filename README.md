@@ -6,7 +6,16 @@ A JBang Microservice implementation with Spring Boot.
 There is no build step since the application is run with JBang.
 
 ## Usage
-First install the JBang CLI, see [https://www.jbang.dev/download](https://www.jbang.dev/download) for instructions. If you would like to use `sdkman` to install JBang, see [https://sdkman.io/](https://sdkman.io/).
+First, install the JBang CLI, see [https://www.jbang.dev/download](https://www.jbang.dev/download) for instructions.
+
+Here are the commands that will install the jbang and JDK 17.
+```bash
+# install jbang
+curl -Ls https://sh.jbang.dev | bash -s - app setup
+
+# install jdk 17
+jbang jdk install 17
+```
 
 Simply run the application with JBang.
 
