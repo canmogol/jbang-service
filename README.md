@@ -3,7 +3,7 @@
 A JBang Microservice implementation with Spring Boot. 
 
 ## Build
-There is no build step since the application is run with JBang.
+There are no build steps, since the application runs with JBang.
 
 ## Install
 First, install the JBang CLI, see [https://www.jbang.dev/download](https://www.jbang.dev/download) for instructions.
@@ -42,7 +42,7 @@ curl -v http://localhost:8080/customers
 ## Notes
 
 The starting point for this Spring Boot Web/JPA application is the `Application.java` java file. 
-There are three instruction words at the beginning of the file, which are `DEPS`, `FILES`, and `SOURCES`.
+There are three instruction **words** at the beginning of the file, which are `DEPS`, `FILES`, and `SOURCES`.
 
 The first line `//usr/bin/env jbang "$0" "$@" ; exit $?`  defines the file as a `jbang` file, and `jbang` executes the `Application.java` file in turn.
 
